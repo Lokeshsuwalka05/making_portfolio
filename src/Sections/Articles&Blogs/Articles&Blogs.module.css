@@ -1,0 +1,124 @@
+/* A&B.module.css */
+
+.articlesBlogsSection {
+  padding: 40px;
+  /* background-color: #000; */
+  color: white;
+}
+
+.sectionTitle {
+  font-size: 50px;
+  font-weight: 1000;
+  text-align: center;
+  color:#6b3eff;
+  margin-bottom: 1px;
+  letter-spacing: -3px;
+  word-spacing: -10px;
+  margin-bottom: 2.5rem;
+}
+
+.articleCard {
+  display: flex;
+  background-color: #222;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.articleImage {
+  width: 40%;
+  object-fit: cover;
+}
+
+.articleContent {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 60%;
+  justify-content: space-evenly;
+}
+
+
+.articleTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.articleDescription {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.articleFooter {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #aaa;
+ 
+
+
+}
+
+.articleSource {
+  font-style: italic;
+}
+
+.articlePublishedDate {
+  font-style: italic;
+}
+
+/* Media Queries */
+
+/* Tablets and smaller screens */
+@media (max-width: 768px) {
+  .articleCard {
+    flex-direction: column;
+  }
+
+  .articleImage {
+    width: 100%;
+  }
+
+  .articleContent {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .articleTitle {
+    font-size: 20px;
+  }
+
+  .articleDescription {
+    font-size: 14px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  .articlesBlogsSection {
+    padding: 20px;
+  }
+
+  .sectionTitle {
+    font-size: 28px;
+  }
+
+  .articleTitle {
+    font-size: 18px;
+  }
+
+  .articleDescription {
+    font-size: 12px;
+  }
+
+  .articleFooter {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .articleFooter span {
+    margin-bottom: 5px;
+  }
+}

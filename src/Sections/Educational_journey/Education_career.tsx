@@ -98,7 +98,7 @@ const EducationJourney: React.FC = () => {
   const startupData: StartupEntry[] = [
     {
       institution: "Atal Incubation Centre - Pondicherry Engineering College Foundation (AIC-PECF)",
-      description: "Startup Incubation, Entrepreneurship/Entrepreneurial Studies",
+      description: "Startup Incubation, Entrepreneurship/ Entrepreneurial Studies",
       duration: "Aug 2023 - Present",
       logo: ATAL,
       location: "India"
