@@ -72,7 +72,7 @@
 /* Media Queries */
 
 /* Tablets and smaller screens */
-@media (max-width: 1495px) {
+@media (max-width: 1000px) {
   .articleCard {
     flex-direction: column;
   }
