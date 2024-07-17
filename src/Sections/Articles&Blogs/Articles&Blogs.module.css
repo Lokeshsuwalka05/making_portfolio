@@ -69,10 +69,8 @@
   font-style: italic;
 }
 
-/* Media Queries */
 
-/* Tablets and smaller screens */
-@media (max-width: 1000px) {
+@media (max-width:480px){
   .articleCard {
     flex-direction: column;
   }
@@ -95,8 +93,8 @@
   }
 }
 
-/* Mobile phones */
-@media (max-width: 480px) {
+
+@media (max-width: 800px) {
   .articlesBlogsSection {
     padding: 20px;
   }
