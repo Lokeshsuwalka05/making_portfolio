@@ -100,7 +100,7 @@
 
 @media  screen and (min-width:1300px) and (max-width:1800px){
   .container{
-    max-width: 1000px;
+    max-width: 1300px;
   }
   .inputGroup {
     width: 48%;
@@ -110,6 +110,9 @@
   .textarea{
     width:204%;
   }
+  .input{
+    height: 40px;
+  }
   
 
 
@@ -117,7 +120,7 @@
 }
 @media  screen and (min-width:1800px) and (max-width:2000px) {
   .container{
-    max-width: 1500px;
+    max-width: 1800px;
   }
   .inputGroup {
     width: 48%;
@@ -126,6 +129,9 @@
   }
   .textarea{
     width:205%;
+  }
+  .input{
+    height: 40px;
   }
   
 
@@ -134,15 +140,20 @@
 }
 @media  screen and (min-width:2000px)  {
   .container{
-    max-width: 1700px;
+    max-width: 2000px;
   }
   .inputGroup {
     width: 48%;
+    
+    
    
     
   }
+  .input{
+    height: 40px;
+  }
   .textarea{
-    width:205%;
+    width:206%;
   }
   
 

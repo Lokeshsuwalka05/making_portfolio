@@ -17,8 +17,8 @@ const App: React.FC = () => {
         {/* <EducationJourney /> */}
         {/* <ArticlesAndBlogs/> */}
         {/* <Testimonials/> */}
-        <MyFeedsAndPosts/>
-        {/* <Form/> */}
+        {/* <MyFeedsAndPosts/> */}
+        <Form/>
       
       </main>
       {/* <footer>
