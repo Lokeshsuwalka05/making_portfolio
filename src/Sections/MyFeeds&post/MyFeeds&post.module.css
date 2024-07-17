@@ -46,7 +46,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 800px;
+  max-width: 1200px;
   gap: 20px;
 
 }
@@ -56,6 +56,8 @@
   padding: 20px;
   border-radius: 10px;
   width: 45%;
+  display: flex;
+  flex-direction: column;
 }
 .post p{
   letter-spacing: -1px;
@@ -80,6 +82,8 @@
 
 .post:last-child {
   background-color: #222;
+  display: flex;
+  flex-direction: column;
 }
 
 .Secondcontainer{
@@ -99,6 +103,7 @@ span p{
 
 
 @media screen and (max-width:640px){
+ 
   .Secondcontainer{
     display:flex;
     flex-direction: column;
@@ -117,6 +122,13 @@ span p{
  }
  .title{
   font-size: 30px;
+ }
+ .post{
+  justify-content: space-evenly;
+ }
+ .post:last-child{
+  justify-content: space-evenly;
+
  }
 
 

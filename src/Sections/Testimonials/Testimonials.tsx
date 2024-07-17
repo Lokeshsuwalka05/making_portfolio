@@ -37,7 +37,7 @@ const Testimonials: React.FC = () => {
       <div className={styles.testimonialsContainer}>
         {testimonialsData.map((testimonial, index) => (
           <div
-          className={`${styles.testimonialCard} ${index === 1 ? styles.highlighted : ''}`}
+          className={`${styles.testimonialCard} ${index === 0 ? styles.highlighted : ''}`}
           key={index}
           >
             {index%2===0&&( <img src={testimonial.imageUrl} alt={testimonial.name} className={styles.testimonialImage} />)}
