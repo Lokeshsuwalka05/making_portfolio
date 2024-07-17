@@ -123,9 +123,7 @@ span p{
  .title{
   font-size: 30px;
  }
- .post{
-  justify-content: space-evenly;
- }
+
  .post:last-child{
   justify-content: space-evenly;
 
