@@ -14,10 +14,10 @@ const App: React.FC = () => {
       <header className="App-header">
       </header>
       <main>
-        {/* <EducationJourney /> */}
-        {/* <ArticlesAndBlogs/> */}
-        {/* <Testimonials/> */}
-        {/* <MyFeedsAndPosts/> */}
+        <EducationJourney />
+        <ArticlesAndBlogs/>
+        <Testimonials/>
+        <MyFeedsAndPosts/>
         <Form/>
       
       </main>
