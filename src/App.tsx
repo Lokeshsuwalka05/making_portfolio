@@ -15,11 +15,11 @@ const App: React.FC = () => {
       </header>
       <main>
         <EducationJourney />
-        <ArticlesAndBlogs/>
-        <Testimonials/>
-        <MyFeedsAndPosts/>
-        <Form/>
-      
+        <ArticlesAndBlogs />
+        <Testimonials />
+        <MyFeedsAndPosts />
+        <Form />
+
       </main>
       {/* <footer>
         <p>&copy; 2024 Your Name. All rights reserved.</p>
