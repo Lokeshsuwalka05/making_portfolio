@@ -98,6 +98,26 @@
   color: #888;
 }
 
+@media  screen and (min-width:1000px) and (max-width:1300px){
+  .container{
+    max-width: 1000px;
+  }
+  .inputGroup {
+    width: 48%;
+   
+    
+  }
+  .textarea{
+    width:204%;
+  }
+  .input{
+    height: 40px;
+  }
+  
+
+
+  
+}
 @media  screen and (min-width:1300px) and (max-width:1500px){
   .container{
     max-width: 1300px;
