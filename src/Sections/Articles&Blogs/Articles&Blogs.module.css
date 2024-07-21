@@ -7,14 +7,20 @@
 }
 
 .sectionTitle {
-  font-size: 50px;
-  font-weight: 1000;
+ 
   text-align: center;
-  color:#6b3eff;
-  margin-bottom: 1px;
-  letter-spacing: -3px;
-  word-spacing: -10px;
-  margin-bottom: 2.5rem;
+  background: linear-gradient(76deg,#9130F4,#4646F9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -1px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  margin-bottom:2.5rem;
+  
+ 
 }
 
 .articleCard {
@@ -41,8 +47,13 @@
 
 
 .articleTitle {
-  font-size: 24px;
-  font-weight: bold;
+  color:#FFFFFF;
+  letter-spacing: 0px;
+  line-height: auto;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
   margin-bottom: 10px;
 }
 

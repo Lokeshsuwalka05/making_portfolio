@@ -143,23 +143,40 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
-  font-size: 18px;
-  font-weight: bold;
   cursor: pointer;
 }
 
-.SectionTitle p {
-  margin: 0 10px;
+.SectionTitle p{
+  
   cursor: pointer;
-  color: #ACACAC; 
-  font-size:25px;
-  font-weight: 500;
+  background: linear-gradient(56deg,#ACACAC,#E8E8E8,#9C9C9C);
+ 
+  
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 28px;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 158%;
+  letter-spacing: 3px;
+
 }
 
 .SectionTitle p:first-child {
-  color: #6b3eff;
-  font-size: 30px;
-  font-weight: 1000;
+  margin: 0 10px;
+  background: linear-gradient(84deg,#9130F4,#6C3BF7,#5941F8,#9130F4,#4646F9);
+ 
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -1px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
 
 }
 .SectionTitle p.active {
