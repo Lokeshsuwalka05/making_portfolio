@@ -52,7 +52,14 @@ const Testimonials: React.FC = () => {
     },{
       breakpoint:600,
       settings:{
-        slidesToShow:1.2,
+        slidesToShow:1.08,
+        centerPadding:"20px",
+      }
+    },
+    {
+      breakpoint:443,
+      settings:{
+        slidesToShow:1,
         centerPadding:"20px",
       }
     }
