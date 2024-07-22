@@ -53,12 +53,12 @@ const Testimonials: React.FC = () => {
       {
         breakpoint: 1400,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3.06,
           centerPadding: "40px",
         }
       },
       {
-        breakpoint: 1200,
+        breakpoint: 1000,
         settings: {
           slidesToShow: 2,
           centerPadding: "40px",

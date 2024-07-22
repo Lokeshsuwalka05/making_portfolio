@@ -91,7 +91,7 @@
   text-align: center;
 } 
 
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
   .testimonialImage {
     width: 111px;
     height: 111px;
@@ -129,7 +129,7 @@
 
 
 }
-@media screen and (max-width:1200px){
+@media screen and (min-width:600px) and (max-width:1200px){
   .testimonialImage {
     width: 111px;
     height: 111px;
@@ -158,7 +158,7 @@
     
     font-size: 35px;
     letter-spacing: -1px;
-    text-transform: uppercase;
+    text-transform: none;
     
   
   }
@@ -167,7 +167,7 @@
 
 
 }
-@media screen and (max-width:1400px){
+@media screen and (min-width:1200px) and (max-width:1400px){
   .testimonialImage {
     width: 111px;
     height: 111px;
@@ -194,9 +194,9 @@
   } 
   .sectionTitle {
     
-    font-size: 35px;
+    font-size: 45px;
     letter-spacing: -1px;
-    text-transform: uppercase;
+    text-transform: none;
     
   
   }
