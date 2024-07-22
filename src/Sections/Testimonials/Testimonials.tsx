@@ -51,17 +51,26 @@ const Testimonials: React.FC = () => {
     },
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1400,
         settings: {
-          slidesToShow: 2.1,
+          slidesToShow: 2,
           centerPadding: "40px",
         }
-      }, {
+      },
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+          centerPadding: "40px",
+        }
+      },
+      {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1.08,
-          centerPadding: "20px",
+          slidesToShow: 1.06,
+          centerPadding: "30px",
         }
+
       },
       {
         breakpoint: 500,

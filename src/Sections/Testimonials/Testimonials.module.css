@@ -9,7 +9,7 @@
   letter-spacing: -1px;
   margin-bottom: 2.5rem;
   font-family: "Poppins", sans-serif;
-  font-size: 90px;
+  font-size: 60px;
   font-weight: 700;
   font-style: normal;
   line-height: 80%;
@@ -129,7 +129,7 @@
 
 
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:1200px){
   .testimonialImage {
     width: 111px;
     height: 111px;
@@ -156,7 +156,7 @@
   } 
   .sectionTitle {
     
-    font-size: 30px;
+    font-size: 35px;
     letter-spacing: -1px;
     text-transform: uppercase;
     
@@ -167,6 +167,41 @@
 
 
 }
+@media screen and (max-width:1400px){
+  .testimonialImage {
+    width: 111px;
+    height: 111px;
+    margin-top: -50px;
+    margin-bottom: 0px;
+  
+  
+  }
+  .testimonialName {
+    font-size: 24px;
+   
+  }
+  
+  .testimonialPosition {
+    font-size: 16px;
+    color: #aaa;
+    margin-bottom: 10px;
+
+  } 
+  
+  .testimonialDescription {
+    font-size: 12px;
+  
+  } 
+  .sectionTitle {
+    
+    font-size: 35px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    
+  
+  }
+
+  
 
 
-
+}
