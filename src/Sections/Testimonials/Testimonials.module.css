@@ -86,7 +86,7 @@
  
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
   text-align: center;
 } 
@@ -144,14 +144,14 @@
   }
   
   .testimonialPosition {
-    font-size: 16px;
+    font-size: 18px;
     color: #aaa;
     margin-bottom: 10px;
 
   } 
   
   .testimonialDescription {
-    font-size: 12px;
+    font-size: 13px;
   
   } 
   .sectionTitle {

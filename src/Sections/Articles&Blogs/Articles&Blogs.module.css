@@ -17,7 +17,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 40px;
+  font-size: 60px;
   margin-bottom:2.5rem;
   
  
@@ -25,10 +25,9 @@
 
 .articleCard {
   display: flex;
-  
-  background-color: #222;
+  background: linear-gradient(0deg,#1F1F1F,#000000,#1E1E1E);
+  border:2px solid #000000;
   margin-bottom: 20px;
-  border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -51,38 +50,41 @@
   color:#FFFFFF;
   letter-spacing: 0px;
   line-height: auto;
-  font-family: "Poppins", sans-serif;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-size: 13px;
+  font-size: 30px;
   margin-bottom: 10px;
 }
 
 .articleDescription {
-  font-size: 15px;
+  font-size: 20px;
   margin-bottom: 10px;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+
 }
 
 .articleFooter {
   display: flex;
   justify-content: space-between;
-  font-size: 14px;
+  font-size: 20px;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   color: #aaa;
  
 
 
 }
 
-.articleSource {
-  font-style: italic;
-}
-
-.articlePublishedDate {
-  font-style: italic;
-}
 
 
-@media (max-width:480px){
+@media (max-width:600px){
   .articleCard {
     flex-direction: column;
   }
@@ -97,22 +99,68 @@
   }
 
   .articleTitle {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .articleDescription {
-    font-size: 14px;
+    font-size: 12px;
+  }
+  .sectionTitle{
+    font-size: 30px;
+  }
+  .articleFooter{
+    font-size:12px;
   }
 }
 
 
-@media (max-width: 800px) {
+@media screen and (min-width:600px) and (max-width: 800px) {
+  .articleCard {
+    flex-direction: column;
+  }
   .articlesBlogsSection {
     padding: 20px;
   }
 
   .sectionTitle {
-    font-size: 28px;
+    font-size: 40px;
+  }
+
+  .articleTitle {
+    font-size: 20px;
+  }
+
+  .articleDescription {
+    font-size: 18px;
+  }
+
+  .articleFooter {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 18px;
+  }
+
+  .articleFooter span {
+    margin-bottom: 5px;
+  }
+  .articleImage {
+    width:100%;
+    object-fit: cover;
+  }
+  .articleContent {
+    width: 100%;
+    padding: 10px;
+  }
+
+
+}
+@media screen and (min-width:801px) and (max-width: 1200px) {
+  .articlesBlogsSection {
+    padding: 20px;
+  }
+
+  .sectionTitle {
+    font-size: 35px;
   }
 
   .articleTitle {
@@ -120,15 +168,63 @@
   }
 
   .articleDescription {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .articleFooter {
     flex-direction: column;
     align-items: flex-start;
+    font-size: 13px;
   }
 
   .articleFooter span {
     margin-bottom: 5px;
   }
+  .articleImage {
+    width:50%;
+    object-fit: cover;
+  }
+  .articleContent {
+    width: 50%;
+    padding: 10px;
+  }
+
+
+}
+@media screen and (min-width:1201px) and (max-width: 1400px) {
+  .articlesBlogsSection {
+    padding: 20px;
+  }
+
+  .sectionTitle {
+    font-size: 45px;
+  }
+
+  .articleTitle {
+    font-size: 20px;
+  }
+
+  .articleDescription {
+    font-size: 15px;
+  }
+
+  .articleFooter {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 15px;
+  }
+
+  .articleFooter span {
+    margin-bottom: 5px;
+  }
+  .articleImage {
+    width:50%;
+    object-fit: cover;
+  }
+  .articleContent {
+    width: 50%;
+    padding: 10px;
+  }
+
+
 }
