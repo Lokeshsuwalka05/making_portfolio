@@ -285,113 +285,141 @@
 }
 
 
-@media screen and (min-width:600px) and (max-width:800px){
-  .timeline{
-    margin:50px auto;
-  }
+@media screen and (min-width:431px) and (max-width:800px){
   .timeline::after{
-    left:31px;
+    left:195px
   }
-  .container{
-    width:100%;
-    padding-left:0px;
-    padding-right: 25px;
-  }
-  .text_box{
-    font-size: 13px;
-    width:400px;
-  }
-  .text_box small{
-    margin-bottom: 10px;
-  }
-  .right_container{
-    left:0;
-  }
-  .left_container img,.right_container img{
-    left:25px;
-    top:10px
-
-     
-  }
-  .left_container .text_box{
-    text-align: left;
-  }
-
-  h3{
-    margin-top: 40px;
-  }
-  .left_container{
-    margin-left: 0;
-  }
-
-  .left_container_arrow{
-    border-right: 15px solid #fff;
-    border-left: 0;
-    left:-15px;
+  .SectionTitle p:first-child {
+    font-size: 18px;
   }
   .SectionTitle p{
-    font-size: 12px;
+    font-size: 14px;
   }
-  .SectionTitle p:first-child{
+  .text_box h3{
     font-size: 15px;
+  }
+  .text_box p strong{
+    font-size: 13px;
+  }
+  .text_box p{
+    font-size: 10px;
 
   }
-  
+  .text_box{
+    width:140px;
+    height:137px;
+    margin: 0px;
+
+  }
+  .text_box img{
+    width: 60px;
+    height:60px;
+   }
+   .left_container img{
+    left:115px;
+    top:-40px;
+    
+   }
+   .right_container img{
+    left:25px;
+    top:-40px
+
+   }
+   .right_container{
+    left:80px
+   }
+   .SectionTitle p:first-child{
+    position:absolute;
+    top:10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+   }
+   .SectionTitle p:nth-child(2){
+    position:absolute;
+    top:18px;
+    left:7px
+   
+   }
+   .SectionTitle p:nth-child(3){
+    position:absolute;
+    top:18px;
+    right:7px;
+   
+   }
+   .container{
+    padding: 10px 0px;
+   }
  
  
 
 }
 @media screen and (min-width:800px) and (max-width:1200px){
-  .timeline{
-    margin:50px auto;
-  }
   .timeline::after{
-    left:150px;
+    left:195px
   }
-  .container{
-    width:100%;
-    padding-left:0px;
-    padding-right: 25px;
-  }
-  .text_box{
-    font-size: 13px;
-    width:400px;
-  }
-  .text_box small{
-    margin-bottom: 10px;
-  }
-  .right_container{
-    left:0;
-  }
-  .left_container .text_box{
-    text-align: left;
-  }
-  .left_container img,.right_container img{
-    left:25px;
-    top:10px
-
-     
-  }
-  h3{
-    margin-top: 40px;
-  }
-  .left_container{
-    margin-left: 0;
-  }
-
-  .left_container_arrow{
-    border-right: 15px solid #fff;
-    border-left: 0;
-    left:-15px;
+  .SectionTitle p:first-child {
+    font-size: 22px;
   }
   .SectionTitle p{
+    font-size: 18px;
+  }
+  .text_box h3{
     font-size: 15px;
   }
-  .SectionTitle p:first-child{
-    font-size: 20px;
+  .text_box p strong{
+    font-size: 13px;
+  }
+  .text_box p{
+    font-size: 10px;
 
   }
-  
+  .text_box{
+    width:140px;
+    height:137px;
+    margin: 0px;
+
+  }
+  .text_box img{
+    width: 60px;
+    height:60px;
+   }
+   .left_container img{
+    left:115px;
+    top:-40px;
+    
+   }
+   .right_container img{
+    left:25px;
+    top:-40px
+
+   }
+   .right_container{
+    left:80px
+   }
+   .SectionTitle p:first-child{
+    position:absolute;
+    top:10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+   }
+   .SectionTitle p:nth-child(2){
+    position:absolute;
+    top:10px;
+    left:7px
+   
+   }
+   .SectionTitle p:nth-child(3){
+    position:absolute;
+    top:10px;
+    right:7px;
+   
+   }
+   .container{
+    padding: 10px 0px;
+   }
+ 
  
  
 
