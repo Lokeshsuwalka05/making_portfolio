@@ -87,6 +87,10 @@
 @media (max-width:600px){
   .articleCard {
     flex-direction: column;
+    
+  }
+  .articlesBlogsSection{
+    padding: 20px;
   }
 
   .articleImage {
@@ -94,7 +98,7 @@
   }
 
   .articleContent {
-    width: 100%;
+    width: 96%;
     padding: 10px;
   }
 
@@ -110,11 +114,12 @@
   }
   .articleFooter{
     font-size:12px;
+    justify-content: space-between;
   }
 }
 
 
-@media screen and (min-width:600px) and (max-width: 800px) {
+@media screen and (min-width:601px) and (max-width: 800px) {
   .articleCard {
     flex-direction: column;
   }
@@ -148,7 +153,7 @@
     object-fit: cover;
   }
   .articleContent {
-    width: 100%;
+    width: 96%;
     padding: 10px;
   }
 
