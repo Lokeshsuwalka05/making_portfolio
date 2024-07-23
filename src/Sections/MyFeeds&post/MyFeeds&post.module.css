@@ -205,6 +205,12 @@
  .postsContainer{
   display: flex;
   flex-direction: column;
+  
+
+
+ }
+ h3{
+  margin-top: 0px;
  }
 
 
@@ -251,6 +257,9 @@
   .post{
     padding: 10px;
   }
+  h3{
+    margin-top: 0px;
+  }
   
  
 
@@ -289,6 +298,10 @@
   
     
   }
+  h3{
+    margin-top: 0px;
+  }
+  
  
  
 
@@ -312,6 +325,9 @@
    
   
     
+  }
+  h3{
+    margin-top: 0px;
   }
 }
 @media screen and (min-width:1201px) and (max-width:1400px) {
