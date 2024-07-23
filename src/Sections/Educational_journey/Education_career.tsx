@@ -58,22 +58,16 @@ const EducationJourney: React.FC = () => {
       logo: deakin_logo
     },
     {
-      institution: "Institute of Management Technology, Ghaziabad",
-      degree: "Advanced General Management Program",
-      duration: "Dec 2022 - Dec 2023",
-      logo: IMT
-    },
-    {
       institution: "Stanford University Graduate School of Business",
       degree: "Cohort 06, Business Management & Entrepreneurship",
       duration: "Feb 2023 - Jul 2023",
       logo: stanford
     },
     {
-      institution: "International Institute of Information Technology Bangalore",
-      degree: "PGDM, DATA SCIENCE",
-      duration: "Feb 2020 - Apr 2021",
-      logo: IIITB
+      institution: "Institute of Management Technology, Ghaziabad",
+      degree: "Advanced General Management Program",
+      duration: "Dec 2022 - Dec 2023",
+      logo: IMT
     },
     {
       institution: "Liverpool John Moores University",
@@ -82,17 +76,27 @@ const EducationJourney: React.FC = () => {
       logo: Liverpool
     },
     {
-      institution: "Karunya International Higher Secondary School",
-      degree: "High School, Computer Science",
-      duration: "Jun 2013 - Jun 2015",
-      logo: karunya
+      institution: "International Institute of Information Technology Bangalore",
+      degree: "PGDM, DATA SCIENCE",
+      duration: "Feb 2020 - Apr 2021",
+      logo: IIITB
     },
+    
     {
       institution: "Hindusthan College of Engineering and Technology",
       degree: "Bachelor of Engineering, Computer Science",
       duration: "2015 - 2019",
       logo: HINDUSTHAN_UNIV
-    }
+    },
+   
+   
+    {
+      institution: "Karunya International Higher Secondary School",
+      degree: "High School, Computer Science",
+      duration: "Jun 2013 - Jun 2015",
+      logo: karunya
+    },
+    
   ];
 
   const startupData: StartupEntry[] = [
@@ -144,8 +148,10 @@ const EducationJourney: React.FC = () => {
     <>
       <div className={styles.SectionTitle}>
         <p onClick={handleCareerClick}>Professional Career</p>
+        
         <p className={showCareer ? '' : styles.hidden} onClick={handleEducationClick}>Education Career</p>
         <p className={showCareer ? '' : styles.hidden} onClick={handleStartupClick}>Startup Incubation</p>
+     
       </div>
 
       <div className={`${styles.timeline} ${showEducation ? '' : styles.hidden}`}>

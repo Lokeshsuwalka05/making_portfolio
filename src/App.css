@@ -1,11 +1,5 @@
 :root{
   --background-color:#000000;
-  --btn-color:#fff;
-  --btn-text-color:#222;
-  --project-card-bg:#fff;
-  --text-color:#fff;
-  --from-text-color:#fff;
-  --footer-text-color:#bbb;
 }
 
 .slick-slide >div{
